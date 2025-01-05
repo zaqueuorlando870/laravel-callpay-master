@@ -1,11 +1,5 @@
 # laravel-callpay
 
-[![Latest Stable Version](https://poser.pugx.org/zaqueuorlando870/laravel-callpay/v/stable.svg)](https://packagist.org/packages/zaqueuorlando870/laravel-callpay)
-[![License](https://poser.pugx.org/zaqueuorlando870/laravel-callpay/license.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/zaqueuorlando870/laravel-callpay.svg)](https://travis-ci.org/zaqueuorlando870/laravel-callpay)
-[![Quality Score](https://img.shields.io/scrutinizer/g/zaqueuorlando870/laravel-callpay.svg?style=flat-square)](https://scrutinizer-ci.com/g/zaqueuorlando870/laravel-callpay)
-[![Total Downloads](https://img.shields.io/packagist/dt/zaqueuorlando870/laravel-callpay.svg?style=flat-square)](https://packagist.org/packages/zaqueuorlando870/laravel-callpay)
-
 > A Laravel Package for working with Callpay seamlessly
 
 ## Installation
@@ -137,9 +131,7 @@ CALLPAY_USER_ID=43534
 
 Set up routes and controller methods like so:
 
-Note: Make sure you have `/payment/callback` registered in Callpay Dashboard [https://dashboard.callpay.co/#/settings/developer](https://dashboard.callpay.co/#/settings/developer) like so:
-
-![payment-callback](https://cloud.githubusercontent.com/assets/2946769/12746754/9bd383fc-c9a0-11e5-94f1-64433fc6a965.png)
+Note: Make sure you have `/payment/callback` registered in Callpay Dashboard [https://dashboard.callpay.co/#/settings/developer](https://dashboard.callpay.co/#/settings/developer)
 
 ```php
 // Laravel 5.1.17 and above
