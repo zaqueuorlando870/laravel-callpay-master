@@ -21,6 +21,6 @@ class Callpay extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-paystack';
+        return 'laravel-callpay';
     }
 }

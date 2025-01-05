@@ -130,7 +130,7 @@ Open your .env file and add your public key, secret key, merchant email and paym
 CALLPAY_USERNAME_KEY=xxxxxxxxxxxxx
 CALLPAY_PASSWORD_KEY=xxxxxxxxxxxxx
 CALLPAY_SALT_KEY=xxxxxxxxxxxxx
-PAYSTACK_PAYMENT_URL=https://api.callpay.co
+CALLPAY_PAYMENT_URL=https://api.callpay.co
 CALLPAY_USER_ID=43534
 ```
 *If you are using a hosting service like heroku, ensure to add the above details to your configuration variables.*
